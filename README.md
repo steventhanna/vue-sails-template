@@ -1,5 +1,7 @@
 # Vue.js and Sails.js Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/steventhanna/vue-sails-template.svg)](https://greenkeeper.io/)
+
 This project serves as a template for new Sails and Client Side Vue projects.  It uses Webpack for compiling and serving the frontend.
 
 This project could not have been made possible without the great work of [Julian Claus](https://github.com/ndabAP) and his repo [vue-sails-example](https://github.com/ndabAP/vue-sails-example), in which this repo pulls heavily from.
