@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+Dockerfile
+frontend/test/unit/coverage
+node_modules
+package-lock.json

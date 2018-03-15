@@ -1,0 +1,27 @@
+{
+  "name": "vue-sails-example",
+  "version": "0.0.0",
+  "description": "Vue.js with Sails.js example project",
+  "main": "backend/app.js",
+  "scripts": {
+    "dev": "cd backend && npm run dev & cd frontend && npm run dev",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "push": "git push && git push heroku `git subtree split --prefix backend master`:master --force",
+    "install-all": "cd backend && npm install & cd frontend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steventhanna/vue-sails-template.git"
+  },
+  "author": "Steven T Hanna <steventhanna@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steventhanna/vue-sails-template/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"
+  },
+  "homepage": "https://github.com/steventhanna/vue-sails-template",
+  "devDependencies": {
+    "@commitlint/cli": "^6.1.0",
+    "@commitlint/config-conventional": "^6.1.0",
+    "husky": "^0.14.3"
+  }
+}
