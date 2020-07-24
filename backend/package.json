@@ -28,7 +28,7 @@
     "sails-disk": "^0.10.10",
     "sails-hook-grunt": "^2.1.0",
     "sails-hook-orm": "^1.0.9",
-    "sails-hook-sockets": "^0.13.11",
+    "sails-hook-sockets": "^1.5.5",
     "sails.io.js": "^1.1.12",
     "sinon": "^2.3.8",
     "supertest": "^3.0.0"
